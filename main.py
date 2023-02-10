@@ -18,3 +18,4 @@ for i in range(100): # 0-99
 expander = st.expander('問い合わせ')
 expander.write('問い合わせ内容を書く')
 expander.text_input('記述欄')
+expander.button('送信')
